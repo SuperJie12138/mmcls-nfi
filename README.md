@@ -7,7 +7,7 @@ MMClassification is an open source object detection toolbox based on PyTorch. It
 
 ## Methodological Overview
 
-<embed src="./img/framework1.pdf" alt="framework" style="zoom:75%;" />
+<embed src="./img/framework1.pdf" type="application/pdf" alt="framework" style="zoom:75%;" />
 
 ## Key Configuration Files
 
