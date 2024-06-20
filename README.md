@@ -9,6 +9,10 @@ MMClassification is an open source object detection toolbox based on PyTorch. It
 
 <img src="./img/framework1.jpg" alt="framework" style="zoom:75%;" />
 
+## Datasets
+
+We present the Neonatal Fundus Images (NFI) dataset, consisting of 115,621 retinal images collected from 8,886 subjects, which is the largest among all datasets. Therefore, training models on our dataset contributes significantly to enhancing their generalizability. This dataset was collected from Hunan Provincial Maternal and Child Health Hospital with ethical approval (LYF20230220). Each image was captured using the Retcam~3 imaging system, with resolutions of $1600 \times 1200$ pixels. Multiple retinal images were taken from each subject at different angles. The dataset includes class labels determined by professional ophthalmologists based on a series of retinal images from the subjects, categorized into Normal, Retinal Hemorrhage (RH), and Retinopathy of Prematurity (ROP). To ensure the utmost accuracy and consistency, the classification process involved the collective scrutiny of multiple medical professionals, each specializing in ophthalmology. We randomly divided the 8,886 subjects into the training set (train), validation set (val), and test set (test) with a ratio of 6:1:1.
+
 ## Key Configuration Files
 
 * LD2G-MIL with Gated-ABMIL baseline:
